@@ -9,8 +9,7 @@ namespace Exampl
             progressBar1.Value = 0;
             playerMove.Stream = Properties.Resources.bus;
             playerAtent.Stream = Properties.Resources.atention;
-            int i = 0;
-            MessageBox.Show(""+i);
+           
 
         }
 

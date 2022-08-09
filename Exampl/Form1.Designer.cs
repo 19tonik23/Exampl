@@ -46,6 +46,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.button13 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -243,12 +244,23 @@
             this.timer2.Interval = 500;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(758, 370);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(94, 29);
+            this.button13.TabIndex = 3;
+            this.button13.Text = "button13";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1203, 450);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -280,5 +292,6 @@
         private System.Windows.Forms.Timer timer2;
         private Button button12;
         private Button button11;
+        private Button button13;
     }
 }

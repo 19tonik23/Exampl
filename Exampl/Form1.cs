@@ -68,6 +68,10 @@ namespace Exampl
         System.Media.SoundPlayer playerMove = new System.Media.SoundPlayer();
         System.Media.SoundPlayer playerAtent = new System.Media.SoundPlayer();
 
-      
+        private void button13_Click(object sender, EventArgs e)
+        {
+            System.IO.File.WriteAllText("card.txt", "5785");
+            MessageBox.Show(System.IO.File.ReadAllText("card.txt"));
+        }
     }
 }
